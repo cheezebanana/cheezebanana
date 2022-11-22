@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 
 df=pd.read_csv('datasets/ex1.csv')
+
 print(df)
 
 print(df[0:2]) # 0~1번째 행 호출
